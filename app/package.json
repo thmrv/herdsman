@@ -1,0 +1,23 @@
+{
+  "name": "vpncli",
+  "version": "0.0.0",
+  "description": "nodecomp",
+  "main": "vpncli.js",
+  "scripts": {
+    "start": "electron --enable-transparent-visuals ."
+  },
+  "private": true,
+  "dependencies": {
+    "electron": "^18.1.0",
+    "electron-traywindow-positioner": "^1.1.1",
+    "fswin": "^3.22.106",
+    "lottie-player": "^1.0.0",
+    "node-notifier": "^10.0.1",
+    "node-powershell": "^5.0.1",
+    "openssl": "^2.0.0"
+  },
+  "devDependencies": {
+    "geoip-country": "^4.1.0",
+    "jquery": "^3.6.0"
+  }
+}

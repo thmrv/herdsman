@@ -1,0 +1,25 @@
+{
+  "main": "ras.js",
+  "type": "commonjs",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "cmake-js": "^6.3.0",
+    "node-addon-api": "^1.7.2"
+  },
+  "scripts": {
+    "pretest": "tsc",
+    "test": "node --napi-modules ./test/test_binding.js",
+    "install": "cmake-js compile",
+    "start": "node ras.js"
+  },
+  "gypfile": true,
+  "name": "nativevpncli",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "typescript": "^2.9.2"
+  }
+}

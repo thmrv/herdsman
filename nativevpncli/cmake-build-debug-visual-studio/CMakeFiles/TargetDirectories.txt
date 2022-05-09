@@ -1,0 +1,3 @@
+C:/Users/localhost/Documents/GitHub/ikev2oVPNwindesc/nativevpncli/cmake-build-debug-visual-studio/CMakeFiles/edit_cache.dir
+C:/Users/localhost/Documents/GitHub/ikev2oVPNwindesc/nativevpncli/cmake-build-debug-visual-studio/CMakeFiles/nativevpncli.dir
+C:/Users/localhost/Documents/GitHub/ikev2oVPNwindesc/nativevpncli/cmake-build-debug-visual-studio/CMakeFiles/rebuild_cache.dir

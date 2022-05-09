@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "NunitoS-L";
+    src: url("files/fonts/NunitoSans-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "NunitoS-SB";
+    src: url("files/fonts/NunitoSans-SemiBold.ttf") format('truetype');
+}
+
+body {
+    overflow: hidden;
+    width: 100%;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#activeArea {
+    background: url('files/img/bginactive.png');
+    background-color: #151515;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 35px;
+}
+
+.activityIndicator {
+    display: flex;
+    margin-top: 55%;
+}
+
+.lowerActiveArea {
+    padding-left: 25px;
+}
+
+.arrowDownWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.upperActiveArea {
+    height: max-content;
+    margin-bottom: 35px;
+  }
+
+.upperActiveArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.regionTitle {
+    font-size: 1.5em;
+    font-weight: 200;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.username {
+    margin-left: 15px;
+}
+.ms {
+    opacity: 0.5;
+    margin-left: 3px;
+}
+.pingStroke {
+    margin-right: 5px;
+}
+.regionPort {
+     opacity: 0.5;
+ }
+.miscInfo {
+    display: flex;
+    font-size: 0.65em;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(38,38,38);
+    background: linear-gradient(0deg, rgba(23, 23, 23, 0.44) 0%, rgba(19, 19, 19, 0.56) 100%);
+    position: absolute;
+    width: 100%;
+    height: 35px;
+    top: 0px;
+}
+body {
+    /*background: url('files/img/bginactive.png');*/
+    width: 240px;
+    height: 380px;
+    background-color: #151515;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "NunitoS-L";
+}
+
+h1,
+h2,
+h3,
+p,
+span,
+a {
+    color: white;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+
+}
+
+.regionAddress {
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.activityIndicator {
+    width: 100%;
+}
+
+.inactive {
+    filter: grayscale(1);
+    opacity: .5;
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.appState {
+    margin-left: 25px;
+}
+
+.actInd {
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.regionFlag {
+    margin-left: 10px;
+    height: auto;
+    width: 30px;
+    background: #ffffff0d;
+    opacity: 0.5;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 25%;
+    }
+}

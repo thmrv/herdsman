@@ -1,0 +1,11 @@
+{
+  "allowConfigEdit": true,
+  "APIUri": "https://vpn.blya.top/api/",
+  "serverListEndpoint": "servers/",
+  "signinEndpoint": "auth/login/",
+  "accountInfoEndpoint": "localhost/api/v1/account",
+  "updatesEndpoint": "#",
+  "authToken": "",
+  "authUsername": "",
+  "authPwd": "",
+}
