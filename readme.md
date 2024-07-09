@@ -1,4 +1,6 @@
-# VPN client with IPsec and oVPN support
+# VPN client for easy deployment in numbers with IPsec and oVPN support
+
+![herdsman](https://github.com/thmrv/herdsman/blob/main/logo.svg?raw=true)
 
 > Requires further integration
 with the existing API, however
@@ -7,11 +9,6 @@ such as an active connection to a vpn server is possible
 through a request for a config file from a specific
 api endpoint, or by requesting 3 files separately in json format or perhaps
 any other suitable one.
-
-1. Stack and the principle of operation
-2. Working with the API, connections
-3. The interface
-4. Config
 
 ## Quick start
 
