@@ -1,6 +1,5 @@
-# VPN client for easy deployment in numbers with IPsec and oVPN support
-
 ![herdsman](https://github.com/thmrv/herdsman/blob/main/logo.svg?raw=true)
+>VPN client for easy deployment in numbers with IPsec and oVPN support
 
 ![Electron.js](https://img.shields.io/badge/Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
