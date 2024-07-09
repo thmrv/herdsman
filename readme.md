@@ -15,6 +15,9 @@ through a request for a config file from a specific
 api endpoint, or by requesting 3 files separately in json format or perhaps
 any other suitable one.
 
+![herdsman](https://github.com/thmrv/herdsman/blob/main/screenshot.png?raw=true)
+![herdsman](https://github.com/thmrv/herdsman/blob/main/screenshot2.png?raw=true)
+
 ## Quick start
 
 *The finished build simulating the client's work is located in the build folder of the root.*
