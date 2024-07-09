@@ -16,15 +16,3 @@ function flushContent() {
         $('body').addClass('inactive');
     }
 }
-
-function signIn() {
-
-}
-
-function serverList() {
-
-}
-
-function throwStateAnim() {
-
-}
