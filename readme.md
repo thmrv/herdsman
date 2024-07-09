@@ -28,7 +28,7 @@ npm start
 
 For a build in .exe, you can use the electron-packager and the following command:
 
-``
+```
 electron-packager <source code folder> <vpncli> --platform=win32 --arch=x64
 ``` 
 
